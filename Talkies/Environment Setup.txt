@@ -1,0 +1,22 @@
+1: Step to Install mysql WorkBench
+	-Go to mysql WorkBench site and Download mysql  Link: https://downloads.mysql.com/archives/installer/       -select version 5.7.40 and click on downloads
+	
+	- then open the installer
+	- from there choose custom and click on mysql sever and click on arrow to add at  install side
+	- same go in application click on  mysqlwork bench and add add shell also
+	- Then click on next and then execute whenever it ask
+	- then it display a option to enter user and password for database add there user:root, password:root click next and execute all then click  on finish
+	- after installing open the mysqlworkbench type your username and password as (root)and login
+	
+	- next step to create database in mysql workbench 
+		- CREATE DATABASE cinemaHub; #paste this query in your query box and execute the query 
+		- USE cinemaHub;
+
+		- CREATE TABLE userinfo (username VARCHAR(50) NOT NULL unique,password VARCHAR(8) NOT NULL);
+
+		- INSERT INTO userinfo (username, password) VALUES ('admin', 'admin');
+		- INSERT INTO userinfo (username, password) VALUES ('user1', '');
+
+2: Go to CMD and pip install mysql.connector
+		
+3: Go to python idle and run the CinemaHub.py file 
