@@ -1,0 +1,10 @@
+# USE CASES
+
+1. User Login to CinemaHub Login page
+
+2. User want to securely login into CinemaHub login page by entering username and password
+
+3. Here if user enter the valid username and password eg:(admin,admin) then only the login page display welcome message with the username
+
+4. If the user credential are invalid it must display invalid username or password eg:(username:admin , password:pass)
+

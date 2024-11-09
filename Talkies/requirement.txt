@@ -1,0 +1,5 @@
+1. Install mysql.connector  ( pip install mysql.connector )
+2. Check a database connection 
+    a: Here check  weather the connection happen succesfully or not
+3. Check the login page that help user to enter the username and password and click on Enter Button
+4. In this login page check the password that must not visible to user while typing is should be (******)
